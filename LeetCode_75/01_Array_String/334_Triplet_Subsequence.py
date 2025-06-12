@@ -10,7 +10,6 @@ def increasingTriplet(nums: List[int]) -> bool:
         elif num <= second:
             second = num
         else:
-            # Found a num greater than both first and second
             return True
     
     return False
